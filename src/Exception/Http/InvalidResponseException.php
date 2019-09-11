@@ -14,6 +14,6 @@ namespace Hyperf\HttpServer\Exception\Http;
 
 use Hyperf\Server\Exception\ServerException;
 
-class FileException extends ServerException
+class InvalidResponseException extends ServerException
 {
 }
